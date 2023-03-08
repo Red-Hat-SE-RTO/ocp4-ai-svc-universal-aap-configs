@@ -15,10 +15,10 @@ jobs:
         run: pip install -r .github/requirements.txt
 
       - name: Setup Minikube
-        uses: manusa/actions-setup-minikube@v2.4.2
+        uses: manusa/actions-setup-minikube@v2.7.2
         with:
-          minikube version: 'v1.21.0'
-          kubernetes version: 'v1.20.7'
+          minikube version: 'v1.28.0'
+          kubernetes version: 'v1.25.4'
           start args: '--addons=ingress'
 
       - name: Wait / Sleep
