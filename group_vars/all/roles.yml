@@ -1,10 +1,10 @@
 ---
 controller_roles_all:
-  - team: config_as_code_admin
-    organization: config_as_code
+  - team: ocp4_ai_svc_universal_admin
+    organization: ocp4-ai-svc-universal
     role: execute
 
   - user: api_user
-    team: config_as_code_admin
+    team: ocp4_ai_svc_universal_admin
     role: member
 ...

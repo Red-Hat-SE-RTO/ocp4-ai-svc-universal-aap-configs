@@ -36,4 +36,3 @@ all:
         connection: local
   vars:
     env: dev
-...

@@ -1,6 +1,6 @@
 ---
 controller_inventories_dev:
-  - name: config_as_code_dev
+  - name: ocp4_ai_svc_universal_dev
     description: inventory for configuring as
-    organization: config_as_code
+    organization: ocp4-ai-svc-universal
 ...

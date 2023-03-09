@@ -2,7 +2,7 @@
 controller_applications_all:
   - name: config_as_code_api
     description: launch controller config job template
-    organization: config_as_code
+    organization: ocp4-ai-svc-universal
     client_type: confidential
     authorization_grant_type: password
 ...

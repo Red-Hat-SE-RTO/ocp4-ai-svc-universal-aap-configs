@@ -1,5 +1,5 @@
 ---
 controller_labels_all:
   - name: EE
-    organization: config_as_code
+    organization: ocp4-ai-svc-universal
 ...

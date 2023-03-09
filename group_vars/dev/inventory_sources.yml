@@ -1,11 +1,11 @@
 ---
 controller_inventory_sources_dev:
   - name: controller_config_source_dev
-    organization: config_as_code
+    organization: ocp4-ai-svc-universal
     source: scm
-    source_project: config_as_code_dev
+    source_project: ocp4_ai_svc_universal_dev
     source_path: "inventory_{{ env }}.yml"
-    inventory: config_as_code_dev
+    inventory: ocp4_ai_svc_universal_dev
     credential: ""
     overwrite: true
     overwrite_vars: true
