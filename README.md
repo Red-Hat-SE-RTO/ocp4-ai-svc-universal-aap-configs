@@ -6,6 +6,13 @@ This is a combination of all the Red Hat CoP Config as Code collections to deplo
 
 You will need to replace the vault files with your own with these variables:
 
+```
+ansible-galaxy collection install infra.ah_configuration
+```
+
+* https://console.redhat.com/ansible/automation-hub/token/
+
+
 ```yaml
 ---
 cloud_token: 'this is the one from console.redhat.com'

@@ -1,14 +1,63 @@
 ---
 controller_projects_dev:
-  - name: config_as_code_dev
-    description: execution environments configurations
-    organization: config_as_code
+  - allow_override: false
+    credential: null
+    default_environment: null
+    description: ''
+    local_path: _6__demo_project
+    name: Demo Project
+    natural_key:
+      name: Demo Project
+      organization:
+        name: Default
+        type: organization
+      type: project
+    organization:
+      name: Default
+      type: organization
+    related:
+      notification_templates_error: []
+      notification_templates_started: []
+      notification_templates_success: []
+    scm_branch: ''
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_track_submodules: false
     scm_type: git
-    scm_url: https://github.com/redhat-cop/aap_configuration_template.git
-    scm_branch: "{{ scm_branch }}"
+    scm_update_cache_timeout: 0
+    scm_update_on_launch: false
+    scm_url: https://github.com/ansible/ansible-tower-samples
+    signature_validation_credential: null
+    timeout: 0
+  - allow_override: false
+    credential: null
+    default_environment: null
+    description: ''
+    local_path: _8__ocp4_ai_svc_universal
+    name: ocp4-ai-svc-universal
+    natural_key:
+      name: ocp4-ai-svc-universal
+      organization:
+        name: Default
+        type: organization
+      type: project
+    organization:
+      name: Default
+      type: organization
+    related:
+      notification_templates_error: []
+      notification_templates_started: []
+      notification_templates_success: []
+    scm_branch: ''
     scm_clean: true
+    scm_delete_on_update: false
+    scm_refspec: ''
+    scm_track_submodules: false
+    scm_type: git
+    scm_update_cache_timeout: 0
     scm_update_on_launch: true
-    scm_credential: ""
-    update_project: true
-    wait: true
-...
+    scm_url: https://github.com/Red-Hat-SE-RTO/ocp4-ai-svc-universal.git
+    signature_validation_credential: null
+    timeout: 0
+
