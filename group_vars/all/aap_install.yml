@@ -1,6 +1,7 @@
 ---
 aap_setup_down_offline_token: "{{ offline_token }}"
-aap_setup_down_version: 2.2
+aap_setup_down_version: "2.3"
+aap_setup_rhel_version: "9"
 # aap_setup_down_dest_dir: /tmp/
 # aap_setup_down_type: setup # default is bundle
 
@@ -19,8 +20,6 @@ aap_setup_prep_inv_vars:
     registry_username: "{{ aap_setup_prep_registry_username | default('admin') }}"
     registry_password: "{{ aap_setup_prep_registry_password | default(ansible_password) | default('Password1234!') }}"
     registry_url: "{{ aap_setup_prep_registry_url | default(aap_setup_prep_inv_nodes['automationhub'][0]) }}"
-    aap_setup_down_version: "2.3"
-    aap_setup_rhel_version: "9"
     # custom_ca_cert: /path/to/ca.crt
     # web_server_ssl_cert: /path/to/tower.cert
     # web_server_ssl_key: /path/to/tower.key
