@@ -67,3 +67,10 @@ Acquire your token at [redhat api](https://access.redhat.com/management/api/) se
 `ansible-playbook -i inventory_dev.yml -l dev playbooks/install_configure.yml --ask-vault-pass -e "env=dev"`
 
 Acquire your token at [redhat api](https://access.redhat.com/management/api/) see [access article](https://access.redhat.com/articles/3626371)
+
+
+## Release Notes
+```
+aap_setup_down_version: "2.3"
+aap_setup_rhel_version: "9"
+```
