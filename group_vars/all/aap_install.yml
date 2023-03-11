@@ -2,12 +2,12 @@
 aap_setup_down_offline_token: "{{ offline_token }}"
 aap_setup_down_version: "2.3"
 aap_setup_rhel_version: "9"
-# aap_setup_down_dest_dir: /tmp/
+aap_setup_down_dest_dir: /tmp/
 # aap_setup_down_type: setup # default is bundle
 
 # aap_setup_prep_installer_file: "{{ aap_setup_down_installer_file }}"
-# aap_setup_prep_working_dir: "{{ aap_setup_down_dest_dir }}"
-# aap_setup_prep_process_template: true
+aap_setup_prep_working_dir: "{{ aap_setup_down_dest_dir }}"
+aap_setup_prep_process_template: true
 aap_setup_prep_inv_nodes:
   automationcontroller: "{{ groups['automationcontroller'] }}"
   database: "{{ groups['database'] | default(omit) }}"

@@ -74,3 +74,9 @@ Acquire your token at [redhat api](https://access.redhat.com/management/api/) se
 aap_setup_down_version: "2.3"
 aap_setup_rhel_version: "9"
 ```
+
+### Tested on 
+```
+# cat /etc/redhat-release
+Red Hat Enterprise Linux release 9.1 (Plow)
+```
