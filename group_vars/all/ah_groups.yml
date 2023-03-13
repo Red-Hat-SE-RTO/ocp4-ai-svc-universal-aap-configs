@@ -1,6 +1,3 @@
 ---
-ah_groups:
-  - name: admin
-    perms: all
-    state: present
+ah_groups: []
 ...

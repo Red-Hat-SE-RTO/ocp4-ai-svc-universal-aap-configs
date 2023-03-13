@@ -40,13 +40,13 @@ vault_pass: 'the password to decrypt this vault'
 |[AAP installation Utilities](https://galaxy.ansible.com/redhat_cop/aap_utilities)|Ansible Automation Platform Utilities|
 |[AAP Configuration Template](https://github.com/redhat-cop/aap_configuration_template)|Configuration Template for this suite|
 
-## controller config
-
-`ansible-playbook -i inventory_dev.yml -l dev playbooks/controller_config.yml --ask-vault-pass`
-
 ## automation hub config
 
 `ansible-playbook -i inventory_dev.yml -l dev playbooks/hub_config.yml --ask-vault-pass`
+
+## controller config
+
+`ansible-playbook -i inventory_dev.yml -l dev playbooks/controller_config.yml --ask-vault-pass`
 
 ## custom ee
 
