@@ -4,6 +4,10 @@ This is a combination of all the Red Hat CoP Config as Code collections to deplo
 
 [^1]: If you only have/want one environment you could delete dev/test/prod folders in group_vars and remove all the _all added to vars in all group.
 
+## Install AAP and Automation Hub
+* [WIP KCLI VMs](https://github.com/tosin2013/kcli-plan-samples/tree/dev/ansible-aap)
+* [WIP - SETUP Script](https://github.com/tosin2013/kcli-plan-samples/blob/dev/ansible-aap/setup-aap.sh)
+
 You will need to replace the vault files with your own with these variables:
 
 ```

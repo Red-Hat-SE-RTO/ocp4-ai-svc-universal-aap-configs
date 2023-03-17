@@ -13,5 +13,12 @@ ah_repository_community:
     - infra.ee_utilities
     - containers.podman
     - awx.awx
+    - ansible.posix
+    - community.crypto
+    - community.general
+    - community.libvirt
+    - community.okd
+    - community.vmware
+    - kubernetes.core
   wait: true
 ...
