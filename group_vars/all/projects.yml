@@ -1,5 +1,6 @@
 ---
 controller_configuration_projects_async_retries: 120 # 120 * 5 = 600 seconds = 10 minutes
+controller_configuration_projects_async_delay: 5 # 120 * 5 = 600 seconds = 10 minutes
 controller_projects_all:
   - name: ocp4-ai-svc-universal
     description: This set of resources handles an idempotent way to deploy OpenShift via the Assisted Installer Service to any number of infrastructure platforms.
