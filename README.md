@@ -84,3 +84,20 @@ aap_setup_rhel_version: "9"
 # cat /etc/redhat-release
 Red Hat Enterprise Linux release 9.1 (Plow)
 ```
+
+
+```
+cloud_token: 'CHaNGEME'
+offline_token: 'CHANGEME'
+rh_username: 'CHANGEME'
+rh_password: 'CHANGEME'
+root_machine_pass: 'CHANGEME'
+vault_pass: 'CHANGEME'
+ah_password: 'Password1234!'
+ah_token_password:  'Password1234!'
+controller_password:  'Password1234!'
+controller_api_user_pass:  'Password1234!'
+ah_repository_certified:
+  url: 'https://cloud.redhat.com/api/automation-hub/XXXXXX-synclist/'
+  token: 'CHANGEME'
+```
