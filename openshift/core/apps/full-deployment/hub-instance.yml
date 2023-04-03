@@ -12,7 +12,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: openshift/core/operator/overlays/stable-2.3-cluster-scoped
+    path: openshift/core/instance/overlays/default
     repoURL:  https://github.com/Red-Hat-SE-RTO/ocp4-ai-svc-universal-aap-configs.git
     targetRevision: main
   syncPolicy:
