@@ -12,6 +12,7 @@ You will need to replace the vault files with your own with these variables:
 
 ```
 ansible-galaxy collection install infra.ah_configuration
+ansible-galaxy collection install -r collections/requirements.yml
 ```
 
 * https://console.redhat.com/ansible/automation-hub/token/
